@@ -27,30 +27,3 @@ client.on('message', message => {
 // THIS  MUST  BE  THIS  WAY
 
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
-package.json
-
-{
-
-  "name": "Test",
-
-  "description": "Test",
-
-  "version": "0.0.0",
-
-  "main": "bot.js",
-
-  "scripts": {
-
-    "start": "node bot.js"
-
-  },
-
-  "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
-  }
-
-}
